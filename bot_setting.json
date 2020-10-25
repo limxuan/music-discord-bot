@@ -1,0 +1,18 @@
+{
+	"colors": {
+		"info":"#20a0f0",
+		"warning":"#FFAC33",
+		"danger":"#f05040",
+		"hack":"#6B9913",
+		"dark" : "#2F3136",
+		"accent" : "#F4DCA9"
+	},
+	"radioServer":"https://script.google.com/macros/s/AKfycbwRNLDKUWnaJWZcv0-7sY1YwBMY54rGFwy_lsCzrrI0tF6v5h4/exec",
+	"usefulLink":[
+		{
+			"name" : "invite me!",
+			"url" : "https://discordapp.com/oauth2/authorize?client_id={{botId}}&scope=bot&permissions=523328"
+		}
+	],
+	"radioApi" : ""
+}

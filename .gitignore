@@ -1,0 +1,8 @@
+#self file
+#.gitignore
+
+#exclude node_module
+node_modules
+
+#exclude dev directory
+#bin
