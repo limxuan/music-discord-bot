@@ -2,7 +2,7 @@
 // init
 const { Client } = require("discord.js");
 const YouTube = require("simple-youtube-api");
-const GOOGLE_API_KEY = process.env.YT_API;
+const GOOGLE_API_KEY = require(../config.json);
 const {colors, radioServer} = require("../bot_setting.json");
 const superagent = require("superagent");
 
@@ -15,7 +15,7 @@ class botClient extends Client {
 		this.util = require("../utils/util");
 		this.queue = new Map();
 		this.players = require("../utils/players");
-		this.youtube = new YouTube('AIzaSyDp9IWrbl0tRZbdCmE6QPa5gHNgle8ppkk');
+		this.youtube = new YouTube(GOOGLE_API_KEY);
 
 		this.colors = colors;
 
